@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Credit Shield</string>
+    <string name="openName">CS</string>
+    <string name="icon">application_Icon</string>
+    <string name="application_logo">Application Logo</string>
+    <string name="regCard">Enter Bank</string>
+    <string name="newCard">Register Card</string>
+    <string name="cardName">new credit card</string>
+    <string name="credit_shield">Credit Shield</string>
+    <string name="text">text</string>
+    <string name="balance">Balance</string>
+    <string name="APR">APR Rate</string>
+    <string name="minPay">Minimum Payment Amount</string>
+    <string name="dueDate">Payment Due Date</string>
+    <string name="sub">Press Icon to submit</string>
+    <string name="date">DD/MM/YYYY</string>
+    <string name="aprDecimal">00.00</string>
+    <string name="myCards">View Cards</string>
+    <string name="minDue">Min Pay Mode</string>
+    <string name="batchMode">Batch Mode</string>
+    <string name="one_month">1</string>
+    <string name="two_month">2</string>
+    <string name="three_month">3</string>
+    <string name="four_month">4</string>
+    <string name="five_month">5</string>
+    <string name="six_month">6</string>
+    <string name="seven_month">7</string>
+    <string name="eight_month">8</string>
+    <string name="nine_month">9</string>
+    <string name="ten_month">10</string>
+    <string name="eleven_month">11</string>
+    <string name="twelve_month">12</string>
+    <string name="desiredMonths">Chose Monthly Timeline</string>
+    <string name="priorityMode">Priority Mode</string>
+    <string name="priorityCard">Choose card for priority</string>
+    <string name="priorityValue">Enter priority card monthly payment</string>
+    <string name="recycle">Clear Cards</string>
+    <string name="blank"></string>
+    <string name="helpButton">App Info</string>
+    <string name="appDescription">
+        Welcome to credit shield this app was designed with the purpose
+        of helping users gain different payment options when looking to pay off a large balance on their credit card.
+        The
+        apps design is meant to be used on dynamic balance that once paid should be reset not to manage
+        credit purchases over extended period of time.
+    </string>
+    <string name="features">Features</string>
+    <string name="minPayMode">Min Pay Mode</string>
+    <string name="minPayDescription">
+        Min pay mode allows users to see how their balances will look over
+        the course of a year had they only paid minimum amount due on their cards to build awareness to
+        rapid interest increases.
+    </string>
+    <string name="batchPayMode">Batch Mode</string>
+    <string name="batchPayDescription">
+        Batch mode allows users too see what amounts need to be paid within a desired twelve month timeline
+        in order to pay off card completely within desired month range. Every month interest is recalculated
+        based on prior months payments.
+    </string>
+    <string name="priorityPayMode">Priority Mode</string>
+    <string name="priorityPayDescription">
+        Priority mode allows the user to focus their assets on a specific credit card by applying a monthly
+        payment amount to view what their statement will be following a years timeline. This option helps users
+        focus their budget on a card that may have higher rate of interest or one that may not be part of a promotional
+        balance.
+    </string>
+    <string name="redLineTitle">Red Line</string>
+    <string name="redLine">
+        The red line on each graph is designed to help the user keep track of how much overall interest they have built
+        up. Every
+        month the interest is stacked showing the user the comparison between statement balance and total interest
+        accrued.
+    </string>
+
+
+</resources>

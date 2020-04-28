@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".priorityMode"
+        android:background="@mipmap/whitebackground"
+        android:orientation="vertical"
+        android:weightSum="8"
+>
+    <!--New Card Info -->
+    <GridLayout
+            android:columnCount="1"
+            android:rowCount="1"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="240dp"
+
+    >
+        <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+        >
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <EditText
+
+                        android:id="@+id/amt"
+                        android:textColor="@android:color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:importantForAutofill="no"
+                        android:labelFor="@id/textView"
+                        android:hint="@string/blank"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+    <TextView
+            android:text="@string/priorityValue"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+
+    />
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            app:srcCompat="@mipmap/sm_logo"
+            android:id="@+id/imageButton"
+            android:contentDescription="@string/application_logo"
+            android:onClick="startPriority"
+    />
+    <TextView
+            android:text="@string/sub"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_weight="1"
+    />
+</LinearLayout>
